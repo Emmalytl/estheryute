@@ -462,7 +462,7 @@ input:required {
 
 /* :: 7.0 Header CSS */
 .header-area {
-  position: fixed;
+  /*position: fixed;*/
   z-index: 100;
   width: 100%;
   -webkit-transition-duration: 500ms;
@@ -526,14 +526,14 @@ input:required {
     cursor: pointer; }
 
 .classy-nav-container {
-  background-color: transparent;
+  background-color: black;
   padding: 0; }
   .classy-nav-container .classy-navbar {
     -webkit-transition-duration: 500ms;
     -o-transition-duration: 500ms;
     transition-duration: 500ms;
     height: 70px;
-    padding: 0; }
+    padding: 15; }
     @media only screen and (max-width: 767px) {
       .classy-nav-container .classy-navbar .nav-brand {
         font-size: 16px;
