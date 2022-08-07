@@ -18,22 +18,22 @@ function generate_html(image_urls,display_location)
     );
 
     let the_link=part;
-
+    
 
 
     let generated_div ="";
     generated_div ='<div align="left">&lt;!-- Single Slide --&gt;<br>'+
-    '&lt;div class="single-welcome-slide bg-img bg-overlay single-portfolio-content" &gt;'+
-        '&lt;img src="'+the_link+'" class="img-responsive" loading="lazy" style="object-fit: contain;"&gt;'+
-        '&lt;!-- zoom img --&gt;'+
-        '&lt;div class="hover-content"&gt;'+
-          '&lt;center&gt;<br>'+
-            '&lt;a href="'+the_link+'" class="portfolio-img"&gt;'+
-              '&lt;i class="fa fa-eye"&gt;&lt;/i&gt;'+
-            '&lt;/a&gt;'+
-          '&lt;/center&gt;'+
-        '&lt;/div&gt;'+
-    '&lt;/div&gt;<br><br>';
+    '&lt;div class="single-portfolio-content"&gt;'+
+    '&lt;div class="slider-item"&gt;'+
+            '&lt;img src="'+the_link+'" class="" loading="lazy" style="object-fit: contain;height:100vh;width: 100%;overflow: hidden;"&gt;'+
+            '&lt;!-- zoom img --&gt;'+
+            '&lt;div class="hover-content"&gt;'+
+                '&lt;center&gt;'+
+                    '&lt;a href="'+the_link+'" class="portfolio-img"&gt;&lt;i class="fa fa-eye"&gt;&lt;/i&gt;&lt;/a&gt;'+
+                '&lt;/center&gt;'+
+            '&lt;/div&gt;'+
+          '&lt;/div&gt;'+
+        '&lt;/div&gt;<br><br>';
 
 
     // let generated_div ="";
