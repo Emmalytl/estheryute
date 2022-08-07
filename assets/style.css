@@ -31,7 +31,7 @@ Last Update: Feb 22, 2019
 
 --------------------------------------------- */
 /* Import Fonts & All CSS */
-@import url("https://fonts.googleapis.com/css?family=Sabon, Icons:100,200,300,400,500,600,700");
+/*@import url("https://fonts.googleapis.com/css?family=Sabon, Icons:100,200,300,400,500,600,700");*/
 @import url(css/bootstrap.min.css);
 @import url(css/animate.css);
 @import url(css/default-assets/classy-nav.css);
