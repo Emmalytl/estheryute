@@ -613,8 +613,8 @@ input:required {
 
 .main-header-area {
   position: relative;
-  z-index: 1;
-  background-color: transparent;
+  z-index: 90000;
+  background-color: #FFF;
   -webkit-transition-duration: 500ms;
   -o-transition-duration: 500ms;
   transition-duration: 500ms;
