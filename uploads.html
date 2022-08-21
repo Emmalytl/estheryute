@@ -68,7 +68,8 @@
     </header>
 
     <!-- Breadcrumb Area Start -->
-    <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(https://i.ibb.co/yqV0ppw/DSC-0210-18.jpg);">
+    <!-- <section class="breadcrumb-area bg-img bg-overlay jarallax" style="background-image: url(https://i.ibb.co/yqV0ppw/DSC-0210-18.jpg);"> -->
+    <section class="breadcrumb-area bg-img bg-overlay jarallax" >
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -91,9 +92,9 @@
     <div class="contact-area section-padding-80-50">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-md-12 col-lg-12">
+                <div class="col-6 col-md-6 col-lg-6">
                     <div class="alime-contact-form mt-50">
-                        <h4 class="mb-30">Generate html</h4>
+                        <h4 class="mb-30">Generate html for index page</h4>
 
                         <!-- Form -->
                         <form action="#" method="post">
@@ -104,6 +105,26 @@
                                 </div>
                                 <div class="col-12">
                                     <a href="javascript:void(0);" onclick="generate_html(all_urls.value,'html_div_display') " class="btn alime-btn btn-2 mt-15">Generate html</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+                <div class="col-6 col-md-6 col-lg-6">
+                    <div class="alime-contact-form mt-50">
+                        <h4 class="mb-30">Generate html for new page</h4>
+
+                        <!-- Form -->
+                        <form action="#" method="post">
+                            <div class="row">
+                                
+                                <div class="col-12">
+                                    <textarea name="all_urls" id="all_urls" class="form-control mb-30" placeholder="URLS"></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <a href="javascript:void(0);" onclick="generate_new_html(all_urls.value,'html_div_display') " class="btn alime-btn btn-2 mt-15">Generate html</a>
                                 </div>
                             </div>
                         </form>
